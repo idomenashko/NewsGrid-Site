@@ -1,0 +1,10 @@
+@media(max-width:935px) and (min-width:769px) {
+  #main-nav ul li {
+    width: 85px;
+  }
+
+  #main-nav .social i {
+    font-size: 25px;
+  }
+
+}

@@ -28,6 +28,11 @@
   grid-column: 1;
 }
 
+.contact {
+  grid-template-columns: 1fr;
+}
+
+
 @media(max-width:600px) {
 
   /* Stack Grid Items */
@@ -59,4 +64,22 @@
   .l-heading {
     font-size: 2rem;
   }
+
+  /* contact */
+
+
+
+  .contact-container h2 {
+    font-size: 2rem;
+  }
+
+  .contact-container form .wrapper input,
+  textarea,
+  .contact-container form .wrapper input[type='submit'] {
+    grid-column: 1/span 4;
+    margin-bottom: 20px;
+    max-width: 100%;
+
+  }
+
 }
