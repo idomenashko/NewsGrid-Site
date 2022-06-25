@@ -40,36 +40,40 @@
 
   <!-- Contact -->
   <div class="contact-container">
-    <div>
-      <h2>צרו קשר</h2>
+    <div class="contact-card">
+
+      <div>
+        <br><br>
+        <h2>צרו קשר</h2>
+      </div>
+      <form class="contact" method="POST" data-netlify="true">
+        <div class="wrapper">
+          <div class="box">
+            <input type="text" name="fname" id="fname" required placeholder="שם פרטי">
+          </div>
+          <div class="box">
+            <input type="text" name="lname" id="lname" required placeholder="שם משפחה">
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="box">
+            <input type="email" name="mail" id="email" required placeholder="אימייל">
+          </div>
+          <div class="box">
+            <input type="text" name="tel" id="tel" required placeholder="פלאפון">
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="box">
+            <textarea name="mes" id="mes" required placeholder="פנייתך"></textarea>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div>
+            <input type="submit" value="שלח" class="btn btn-secondary">
+          </div>
+        </div>
     </div>
-    <form class="contact" method="POST" data-netlify="true">
-      <div class="wrapper">
-        <div class="box">
-          <input type="text" name="fname" id="fname" required placeholder="שם פרטי">
-        </div>
-        <div class="box">
-          <input type="text" name="lname" id="lname" required placeholder="שם משפחה">
-        </div>
-      </div>
-      <div class="wrapper">
-        <div class="box">
-          <input type="email" name="mail" id="email" required placeholder="אימייל">
-        </div>
-        <div class="box">
-          <input type="text" name="tel" id="tel" required placeholder="פלאפון">
-        </div>
-      </div>
-      <div class="wrapper">
-        <div class="box">
-          <textarea name="mes" id="mes" required placeholder="פנייתך"></textarea>
-        </div>
-      </div>
-      <div class="wrapper">
-        <div>
-          <input type="submit" value="שלח" class="btn btn-secondary">
-        </div>
-      </div>
     </form>
   </div>
 

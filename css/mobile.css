@@ -79,7 +79,19 @@
     grid-column: 1/span 4;
     margin-bottom: 20px;
     max-width: 100%;
+    border-radius: 5px;
+  }
 
+  .contact-container form .wrapper textarea {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .contact-container form .wrapper input {
+    width: 60%;
+    margin: 10px auto;
   }
 
 }
